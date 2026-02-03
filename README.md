@@ -19,6 +19,25 @@ The system addresses the challenge of extracting meaningful insights from large 
 - Interactive Streamlit web interface for non-technical users
 - Command-line interface for batch processing and integration
 
+
+
+## Project Structure
+
+```
+.
+├── parser.py          # WhatsApp chat parsing (raw chat → DataFrame)
+├── features.py        # Feature engineering
+├── clustering.py      # Feature scaling + KMeans clustering
+├── profiling.py       # Natural language behavior profiles
+├── report.py          # CSV/PDF report generation
+├── main.py            # Main entry point with analyze_chat() function
+├── app.py             # Streamlit web interface
+├── requirements.txt   # Python dependencies
+└── README.md          # This file
+```
+
+
+
 ## How It Works
 
 The system follows a five-stage pipeline:
@@ -204,21 +223,6 @@ The system processes data locally and does not transmit information to external 
 - **Custom Profile Templates**: Allow users to define custom behavior profile templates for domain-specific insights
 
 - **Statistical Validation**: Add significance testing and confidence intervals for behavioral metrics
-
-## Project Structure
-
-```
-.
-├── parser.py          # WhatsApp chat parsing (raw chat → DataFrame)
-├── features.py        # Feature engineering
-├── clustering.py      # Feature scaling + KMeans clustering
-├── profiling.py       # Natural language behavior profiles
-├── report.py          # CSV/PDF report generation
-├── main.py            # Main entry point with analyze_chat() function
-├── app.py             # Streamlit web interface
-├── requirements.txt   # Python dependencies
-└── README.md          # This file
-```
 
 ## License
 
