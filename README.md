@@ -1,7 +1,7 @@
 # WhatsApp Group Behavior Insight System
 
 A machine learning system for analyzing group chat dynamics and generating explainable behavioral profiles from WhatsApp chat exports.
-try it out - [Chat-behaviour-system]([Link](https://chat-behavior-insight-system-3pwzbandetpafct9zl9sjx.streamlit.app/))
+try it out - [Chat-behaviour-system](https://chat-behavior-insight-system-3pwzbandetpafct9zl9sjx.streamlit.app/)
 
 
 ## Project Overview
